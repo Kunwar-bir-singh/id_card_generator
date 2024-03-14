@@ -1,6 +1,5 @@
 @page {
-  margin-top: 5mm; /* Adjust top margin as needed */
-  margin-bottom: 5mm; /* Adjust bottom margin as needed */
+  margin:1mm;
 }
 body {
   background-color: rgb(255, 255, 255);
@@ -17,40 +16,63 @@ table {
 }
 
 td {
-  border-width: 1px;
+  border-width: 2px;
   border-color: black;
+  width: 57mm;
+  height: 88mm;
+  
+
+}
+#id_card_cutting_size{
+  border: 2px solid black;
+  border-radius: 4mm;
   width: 54mm;
-  height: 85.5mm;
+  height: 86mm;
+  margin: 1mm;
+}
+#safe_area{
+  width: 48mm;
+  height: 80mm;
   background-image: url('../template_images/10.png');
   background-size: 101%;
   background-repeat: no-repeat;
-  vertical-align: top;
-
+  vertical-align: top;  
+  margin: 3mm;
+  border: 1px solid black;
+}
+#punch_hole{
+  position: relative;
+  height: 1.7mm;
+  width: 14mm;
+  background-color: white;
+  left: 36%;
+  top: 0.5mm;
+  border-radius: 2mm;
 }
 .first_section{
   position: relative;
   /* bottom: 8mm; */
-  height: 17mm;
+  height: 16mm;
 }
 #institute_logo{
   position: relative;
-  width: 11mm;
-  height: 11mm;
+  width: 10mm;
+  height: 10mm;
   border-radius: 2.64mm;
-  top: 1mm;
+  top: -1mm;
   left: 2.5mm;
 }
 #institute_name{
   height: 7.9mm;
   width: 41.5mm;
   position: relative;
-  bottom: 11mm;
-  left: 15mm;
-  font-size: 3.1mm;
+  bottom: 10.5mm;
+  left: 13mm;
+  font-size: 2.7mm;
   text-align: left;
   display: block;
-  line-height:5mm;
-  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  line-height: 5mm;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   font-weight: bolder;
   color: white;
 
@@ -62,48 +84,49 @@ td {
   text-wrap:wrap;
   padding-top: 3%;
   overflow: hidden;
+  top: 2mm;
 }
 
 #child-image{
-  width: 15.5mm;
-  height: 15.5mm;
-  margin-left: 19mm;
+  width: 13.5mm;
+  height: 13.5mm;
+  margin-left: 16mm;
   margin-bottom: 1.8mm;
   border-radius: 3.4mm;
   position: relative;
-  top: 0mm;
+  top: -1mm;
 }
 
 .child-name {
   color: red;
-  font-size: 3.5mm;
+  font-size: 3.2mm;
   /* margin-left: 10mm; */
   position: relative;
   padding-left: 1mm;
-    padding-right: 1mm;
-  top: -2mm;
+  padding-right: 1mm;
+  top: -3mm;
   font-weight: bold;
   text-align: center;
 }
 
 .child-class {
-  font-size: 2.2mm;
+  font-size: 2mm;
   margin-bottom: 0.9mm;
   position: relative;
   text-align: center;
-  top: -2mm;
+  top: -3mm;
   font-weight: bold;
 }
 
 .child-details {
-  font-size: 2.5mm;
+  font-size: 2.3mm;
   text-align: left;
-  padding-left: 4mm;
-  padding-right: 4mm;
+  padding-left: 2mm;
+  padding-right: 2mm;
   position: relative;
-  top: -1mm;
+  top: -3mm;
   text-wrap: wrap;
-  line-height: 3.4mm;
+  line-height: 3.4mm; 
 }
 
 .red_details {
@@ -126,15 +149,16 @@ td {
   font-size: 2.5mm;
   text-align: center;
   padding-top: 1%;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   height: 7mm;
+  bottom: 9mm;
   
 }
 #principal_sign{
-  position: relative;
-  top: -5.7mm;
-  right: -3.5mm;
+     position: relative;
+    top: -11mm;
+    right: -0.5mm;
   
 }
 #principal_sign span {

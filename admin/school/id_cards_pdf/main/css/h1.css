@@ -1,3 +1,6 @@
+@page {
+  margin:1mm;
+}
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -13,17 +16,39 @@ table {
 }
 
 td {
-  border-width: 1px;
+  border-width: 2px;
   border-color: black;
+  width: 88mm;
+  height: 57mm;
+  
+
+}
+#id_card_cutting_size{
+  border: 2px solid black;
+  border-radius: 4mm;
+  width: 86mm;
   height: 54mm;
-  width: 84mm;
-  background-image: url("../template_images/h1.png");
-  background-size: 101%;
+  margin: 1mm;
+}
+#safe_area{
+  width: 80mm;
+  height: 48mm;
+  background-image: url('../template_images/h1.png');
+  background-size: 100%;
   background-repeat: no-repeat;
   vertical-align: top;
-  overflow: hidden;
+  margin: 3mm;
+  border: 1px solid black;
+  background-position: 0mm 0mm;
 }
-.sizing {
+#punch_hole{
+  position: relative;
+  height: 1.7mm;
+  width: 14mm;
+  background-color: white;
+  left: 43%;
+  top: 0.5mm;
+  border-radius: 2mm;
 }
 .first_section {
   position: relative;
@@ -35,19 +60,19 @@ td {
   width: 12mm;
   height: 12mm;
   border-radius: 7.64mm;
-  top: 0.5mm;
+  top: -1.5mm;
   left: 4mm;
 }
 #institute_name {
   height: 7.9mm;
   width: 54.5mm;
   position: relative;
-  bottom: 8.5mm;
+  bottom: 9mm;
   left: 28mm;
-  font-size: 4.1mm;
+  font-size: 3.5mm;
   text-align: left;
   display: block;
-  line-height: 5mm;
+  line-height: 4mm;
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   font-weight: bolder;
   color: white;
@@ -59,15 +84,16 @@ td {
   text-wrap: wrap;
   padding-top: 3%;
   overflow: hidden;
+  bottom: 4mm;
 }
 
 #child-image {
-  width: 19.5mm;
-  height: 24.3mm;
-  margin-left: 4mm;
+  width: 18.5mm;
+  height: 23.3mm;
+  margin-left: 4.4mm;
   border-radius: 1.4mm;
   position: relative;
-  top: 14.2mm;
+  top: 16.7mm;
   float: left;
 }
 .details {
@@ -80,25 +106,27 @@ td {
   position: relative;
   padding-left: 1mm;
   padding-right: 1mm;
-  top: 6mm;
+  top: 8mm;
   font-weight: bold;
   text-align: center;
 }
 
 .child-class {
-  font-size: 2.2mm;
+  font-size: 2mm;
   margin-bottom: 0.9mm;
   position: relative;
   text-align: center;
-  top: 5.5mm;
+  top: 16mm;
   font-weight: bold;
+  left: 15mm;
+  color: white;
 }
 
 .child-details {
-  font-size: 2.5mm;
+  font-size: 2.3mm;
   text-align: left;
-  padding-left: 25mm;
-  padding-right: 8mm;
+  padding-left: 24mm;
+  padding-right: 12mm;
   position: relative;
   top: 5mm;
   text-wrap: wrap;
@@ -129,12 +157,12 @@ td {
   color: white;
   height: 2mm;
   left: 16%;
-  bottom: 5mm;
+  bottom: 19.5mm;
 }
 #principal_sign {
   position: relative;
-  top: -5.7mm;
-  right: -3.5mm;
+  top: -11.7mm;
+  right: -1.5mm;
 }
 #principal_sign span {
   font-size: 2.2mm;

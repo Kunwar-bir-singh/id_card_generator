@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/h5.css">
-</head>
-<body>
-    <table>
-        <tr>
-            <td >
-        <div class='first_section'>
-            <img src='./col_logo.jpg' alt='' srcset='' id='institute_logo'>
-            <span id='institute_name'>GURU NANAK DEV ENGINEERING COLLEGE</span>
-        </div>
-        <div class='second_section'>
-        <img id='child-image' src='./col_logo.jpg' >
-          <div class='child-name'>Kunwarbir Singh Manan Dhiman</div>
-          <div class='child-class'>Class: BCA 3rd Year</div>
-          <div class='child-details'>
-            <span class='red_details space-right'>F.Name</span>: Manjeet Singh<br>
-            <span id='mother_name'>
 
-              <span class='red_details'>M.Name</span>: Harjeet Kaur<br>
-            </span>
-            <span class='red_details'>Mob. No</span>: 9914126177<br>
-            <span class='red_details'>Adm. No</span> : 2191030
-            <span class='red_details space-left'>D.O.B</span> : 20/12/2002<br>
-            <span class='red_details'>Address</span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magnam fuga nemo mollitia placeat 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/h5.css">
+</head>
+
+<body>
+  <table>
+    <tr>
+      <div style="display: flex; ;">
+        <td>
+          <div id="id_card_cutting_size">
+            <div id="safe_area">
+              <div class='first_section'>
+                <div id="punch_hole">
+                </div>
+                <img src='./col_logo.jpg' alt='' srcset='' id='institute_logo'>
+                <span id='institute_name'>Doon International School</span>
+              </div>
+              <div class='second_section'>
+                <img id='child-image' src='./col_logo.jpg'>
+                <div class='child-name'>Kunwarbir Singh Manan Dhiman</div>
+                <div class='child-class'>Class: BCA 3rd Year</div>
+                <div class='child-details'>
+                  <span class='red_details space-right'>F.Name</span>: Manjeet Singh<br>
+                  <span id='mother_name'>
+  
+                    <span class='red_details'>M.Name</span>: Harjeet Kaur<br>
+                  </span>
+                  <span class='red_details'>Mob. No</span>: 9914126177<br>
+                  <span class='red_details'>Adm. No</span> : 2191030
+                  <span class='red_details space-left'>D.O.B</span> : 20/12/2002<br>
+                  <span class='red_details'>Address</span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                  magnam fuga nemo mollitia placeat
+                </div>
+              </div>
+              <div id='principal_sign'>
+                <img src='$signature' />
+                <span>Principal's Sign</span>
+              </div>
+              <div class='third_section'>
+                <span>".$row_sc['address']."</span>
+                <br><span>Contact No. ".$row_sc['contact']."</span>
+              </div>
+            </div>
           </div>
-        </div>
-         <div id ='principal_sign'> 
-        <img src='$signature'  />
-        <span>Principal's Sign</span>
-        </div>
-        <div class='third_section'>
-          <span>".$row_sc['address']."</span>
-          <br><span>Contact No. ".$row_sc['contact']."</span>
-        </div>
-      </td>
-        </tr>
-    </table>
+        </td>
+        <td>
+          <div id="id_card_cutting_size">
+            <div id="safe_area">
+              <div class='first_section'>
+                <div id="punch_hole">
+  
+                </div>
+                
+              </div>
+              <div class='second_section'>
+               
+                </div>
+              </div>
+              <div id='principal_sign'>
+               
+              </div>
+              <div class='third_section'>
+              
+              </div>
+            </div>
+          </div>
+        </td>
+
+      </div>
+    </tr>
+  </table>
 </body>
+
 </html>

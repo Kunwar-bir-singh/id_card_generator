@@ -1,10 +1,6 @@
 @page {
-  margin-top: 5mm;
-  /* Adjust top margin as needed */
-  margin-bottom: 5mm;
-  /* Adjust bottom margin as needed */
+  margin: 1mm;
 }
-
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -20,15 +16,29 @@ table {
 }
 
 td {
-  border-width: 1px;
+  border-width: 2px;
   border-color: black;
+  width: 57mm;
+  height: 88mm;
+}
+#id_card_cutting_size {
+  border: 2px solid black;
+  border-radius: 4mm;
   width: 54mm;
-  height: 85.5mm;
-  background-image: url('../template_images/5.png');
-  background-size: 101%;
+  height: 86mm;
+  margin: 1mm;
+}
+#safe_area {
+  width: 48mm;
+  height: 80mm;
+  background-image: url("../template_images/5.png");
+  background-size: 100%;
   background-repeat: no-repeat;
   vertical-align: top;
-
+  background-position: 0mm 0mm;
+  vertical-align: top;
+  margin: 3mm;
+  border: 1px solid black;
 }
 
 .first_section {
@@ -36,32 +46,39 @@ td {
   /* bottom: 8mm; */
   height: 12mm;
 }
+#punch_hole{
+  position: relative;
+  height: 1.7mm;
+  width: 14mm;
+  background-color: white;
+  left: 36%;
+  top: 0.5mm;
+  border-radius: 2mm;
+}
 
 #institute_logo {
   position: relative;
-  width: 11mm;
-  height: 11mm;
+  width: 10mm;
+  height: 10mm;
   border-radius: 2.64mm;
-  top: 0mm;
-  left: 2.5mm;
+  top: 2mm;
+  left: 1.5mm;
 }
 
 #institute_name {
   height: 7.9mm;
   width: 41.5mm;
   position: relative;
-  bottom: 10mm;
-  left: 15mm;
-  font-size: 3.1mm;
+  bottom: 8mm;
+  left: 12mm;
+  font-size: 3mm;
   text-align: left;
   display: block;
   line-height: 5mm;
-  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-weight: bolder;
   color: white;
-
-
 }
 
 .second_section {
@@ -71,26 +88,27 @@ td {
   text-wrap: wrap;
   padding-top: 3%;
   overflow: hidden;
+  bottom: 5mm;
 }
 
 #child-image {
-  width: 18.7mm;
-  height: 18.7mm;
-  margin-left: 17.9mm;
+  width: 16.7mm;
+  height: 17mm;
+  margin-left: 15.9mm;
   margin-bottom: -2.2mm;
   border-radius: 11.4mm;
   position: relative;
-  top: -1.5mm;
+  top: 2mm;
 }
 
 .child-name {
   color: red;
-  font-size: 3.5mm;
+  font-size: 3mm;
   /* margin-left: 10mm; */
   position: relative;
   padding-left: 1mm;
   padding-right: 1mm;
-  top: 1mm;
+  top: 5mm;
   font-weight: bold;
   text-align: center;
   height: 8mm;
@@ -101,7 +119,7 @@ td {
   margin-bottom: 0.9mm;
   position: relative;
   text-align: center;
-  top: 3mm;
+  top: 4.7mm;
   font-weight: bold;
   left: 1mm;
 }
@@ -112,7 +130,7 @@ td {
   padding-left: 4mm;
   padding-right: 4mm;
   position: relative;
-  top: 4mm;
+  top: 5mm;
   text-wrap: wrap;
   line-height: 3.4mm;
 }
@@ -143,13 +161,14 @@ td {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   height: 7mm;
+  bottom: 11mm;
 
 }
 
 #principal_sign {
   position: relative;
-  top: -4.7mm;
-  right: -3.5mm;
+  top: -12.7mm;
+  right: -0.5mm;
 
 }
 

@@ -202,12 +202,12 @@
 								<input type="radio" name="template" id="1">
 							</div>
 							<div class="image-item ">
-								<img src="school/id_cards_pdf/main/template_images/3.png" alt="template1" srcset="">
-								<input type="radio" name="template" id="3">
-							</div>
-							<div class="image-item ">
 								<img src="school/id_cards_pdf/main/template_images/2.png" alt="template1" srcset="">
 								<input type="radio" name="template" id="2">
+							</div>
+							<div class="image-item ">
+								<img src="school/id_cards_pdf/main/template_images/3.png" alt="template1" srcset="">
+								<input type="radio" name="template" id="3">
 							</div>
 							<div class="image-item ">
 								<img src="school/id_cards_pdf/main/template_images/4.png" alt="template1" srcset="">
@@ -218,12 +218,12 @@
 								<input type="radio" name="template" id="5">
 							</div>
 							<div class="image-item ">
-								<img src="school/id_cards_pdf/main/template_images/7.png" alt="template1" srcset="">
-								<input type="radio" name="template" id="7">
-							</div>
-							<div class="image-item ">
 								<img src="school/id_cards_pdf/main/template_images/6.png" alt="template1" srcset="">
 								<input type="radio" name="template" id="6">
+							</div>
+							<div class="image-item ">
+								<img src="school/id_cards_pdf/main/template_images/7.png" alt="template1" srcset="">
+								<input type="radio" name="template" id="7">
 							</div>
 							<div class="image-item ">
 								<img src="school/id_cards_pdf/main/template_images/8.png" alt="template1" srcset="">

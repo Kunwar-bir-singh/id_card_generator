@@ -1,6 +1,5 @@
 @page {
-  margin-top: 5mm; /* Adjust top margin as needed */
-  margin-bottom: 5mm; /* Adjust bottom margin as needed */
+  margin: 1mm;
 }
 body {
   background-color: rgb(255, 255, 255);
@@ -17,29 +16,51 @@ table {
 }
 
 td {
-  border-width: 1px;
+  border-width: 2px;
   border-color: black;
+  width: 57mm;
+  height: 88mm;
+}
+#id_card_cutting_size {
+  border: 2px solid black;
+  border-radius: 4mm;
   width: 54mm;
-  height: 85.5mm;
-  background-image: url(../template_images/7.png);
-  background-size: 110%;
+  height: 86mm;
+  margin: 1mm;
+}
+#safe_area {
+  width: 48mm;
+  height: 80mm;
+  background-image: url("../template_images/7.png");
+  background-size: 100%;
   background-repeat: no-repeat;
   vertical-align: top;
-  background-position: -2.5mm -3mm;
+  background-position: 0mm 0mm;
+  vertical-align: top;
+  margin: 3mm;
+  border: 1px solid black;
 }
-
 .first_section {
   position: relative;
   /* bottom: 8mm; */
   height: 6mm;
 }
+#punch_hole{
+  position: relative;
+  height: 1.7mm;
+  width: 14mm;
+  background-color: white;
+  left: 36%;
+  top: 0.5mm;
+  border-radius: 2mm;
+}
 
 #institute_logo {
   position: relative;
-  width: 13mm;
-  height: 13mm;
+  width: 11mm;
+  height: 11mm;
   border-radius: 2.64mm;
-  top: 24mm;
+  top: 19mm;
   left: 1.5mm;
 }
 
@@ -48,8 +69,8 @@ td {
   width: 45.5mm;
   position: relative;
   bottom: 10mm;
-  left: 6mm;
-  font-size: 3.5mm;
+  left: 3mm;
+  font-size: 3.2mm;
   text-align: left;
   display: block;
   line-height: 5mm;
@@ -70,13 +91,13 @@ td {
 }
 
 #child-image {
-  width: 23.5mm;
-  height: 25.5mm;
-  margin-left: 15.5mm;
+  width: 20.5mm;
+  height: 21.5mm;
+  margin-left: 14mm;
   margin-bottom: 0.8mm;
   border-radius: 2.4mm;
   position: relative;
-  top: 5mm;
+  top: 3.5mm;
 }
 
 .child-name {
@@ -110,7 +131,7 @@ td {
   position: relative;
   text-align: left;
   top: 2.5mm;
-  left: 14.5mm;
+  left: 11.5mm;
   font-weight: bold;
   color: black;
 }
@@ -118,8 +139,8 @@ td {
 .child-details {
   font-size: 2.3mm;
   text-align: left;
-  padding-left: 6mm;
-  padding-right: 6mm;
+  padding-left: 3mm;
+  padding-right: 4mm;
   position: relative;
   top: 2mm;
   text-wrap: wrap;
@@ -156,13 +177,13 @@ td {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
   height: 2mm;
-  bottom: 4.6mm;  
+  bottom:11.6mm;  
 
 }
 #principal_sign{
   position: relative;
-  top: -4.7mm;
-  right: -4mm;
+  top: -10mm;
+  right: 0mm;
   
 }
 #principal_sign span {

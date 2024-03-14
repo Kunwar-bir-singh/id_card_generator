@@ -1,158 +1,181 @@
-body {
-    background-color: rgb(255, 255, 255);
-  }
-  
-  table,
-  th,
-  td {
-    border: 0.7mm solid black;
-  }
-  
-  table {
-    border-spacing: 1.5mm;
-  }
-  
-  td {
-    border-width: 1px;
-    border-color: black;
-    height: 54mm;
-    width: 84mm;
-    background-image: url("../template_images/h2.png");
-    background-size: 101%;
-    background-repeat: no-repeat;
-    vertical-align: top;
-    overflow: hidden;
-  }
-  .sizing {
-  }
-  .first_section {
-    position: relative;
-    /* bottom: 8mm; */
-    height: 1mm;
-  }
-  #institute_logo {
-    position: relative;
-    width: 17.2mm;
-    height: 17.2mm;
-    border-radius: 7.64mm;
-    top: -1.5mm;
-    left: 1mm;
+@page {
+  margin: 1mm;
 }
-  #institute_name {
-    height: 7.9mm;
-    width: 60.5mm;
-    position: relative;
-    bottom: 12.5mm;
-    left: 23mm;
-    font-size: 4.5mm;
-    text-align: left;
-    display: block;
-    line-height: 5mm;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-    font-weight: bolder;
-    color: black;
-  }
-  .second_section {
-    text-transform: uppercase;
-    position: relative;
-    height: 43mm;
-    text-wrap: wrap;
-    padding-top: 3%;
-    overflow: hidden;
-  }
-  
-  #child-image {
-    width: 17.5mm;
-    height: 17.3mm;
-    margin-left: 0mm;
-    border-radius: 9.4mm;
-    position: relative;
-    top: 22mm;
-    float: right;
-    right: 7.7mm;
-  }
-  .details {
-    float: left;
-  }
-  .child-name {
-    color: red;
-    font-size: 3.5mm;
-    /* margin-left: 10mm; */
-    position: relative;
-    padding-left: 1mm;
-    padding-right: 1mm;
-    top:7mm;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .child-class {
-    font-size: 2.2mm;
-    margin-bottom: 0.9mm;
-    position: relative;
-    text-align: center;
-    top: 8mm;
-    font-weight: bold;
-  }
-  
-  .child-details {
-    font-size: 2.5mm;
-    text-align: left;
-    padding-left: 2mm;
-    padding-right: 34mm;
-    position: relative;
-    top:8mm;
-    text-wrap: wrap;
-    line-height: 3.4mm;
-  }
-  #mother_name{
-    display: none;
-  }
-  .red_details {
-    color: #DD1379;
-    font-weight: bold;
-    text-wrap: wrap;
-  }
-  #stud_address {
-    text-align: center;
-  }
-  #little_space {
-    margin-right: 1mm;
-  }
-  
-  #space-left {
-    margin-left: 1mm;
-  }
-  .third_section {
-    position: relative;
-    font-size: 2.5mm;
-    text-align: center;
-    padding-top: 1%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: white;
-    height: 2mm;
-    left: -2%;
-    bottom: 4.5mm;
-  }
-  #principal_sign {
-    position: relative;
-    top: -5.7mm;
-    right: -6.5mm;
-  }
-  #principal_sign span {
-    font-size: 2.2mm;
-    position: relative;
-    left: 32%;
-    top: 1mm;
-    color: rgb(12, 129, 202);
-    font-weight: bolder;
-  }
-  
-  #principal_sign img {
-    height: 4mm;
-    width: 12mm;
-    position: relative;
-    left: 49.5%;
-    top: -1mm;
-  }
-  
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+table,
+th,
+td {
+  border: 0.7mm solid black;
+}
+
+table {
+  border-spacing: 1.5mm;
+}
+
+td {
+  border-width: 2px;
+  border-color: black;
+  width: 88mm;
+  height: 57mm;
+}
+#id_card_cutting_size {
+  border: 2px solid black;
+  border-radius: 4mm;
+  width: 86mm;
+  height: 54mm;
+  margin: 1mm;
+}
+#safe_area {
+  width: 80mm;
+  height: 48mm;
+  background-image: url("../template_images/h2.png");
+  background-size: 102%;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin: 3mm;
+  border: 1px solid black;
+  background-position: 0mm 0mm;
+}
+#punch_hole {
+  position: relative;
+  height: 1.7mm;
+  width: 14mm;
+  background-color: white;
+  left: 43%;
+  top: 0.5mm;
+  border-radius: 2mm;
+}
+.first_section {
+  position: relative;
+  /* bottom: 8mm; */
+  height: 1mm;
+}
+#institute_logo {
+  position: relative;
+  width: 15.2mm;
+  height: 14.2mm;
+  border-radius: 7.64mm;
+  top: -3 .5mm;
+  left: 3mm;
+}
+#institute_name {
+  height: 7.9mm;
+  width: 60.5mm;
+  position: relative;
+  bottom: 12.5mm;
+  left: 23mm;
+  font-size: 4.5mm;
+  text-align: left;
+  display: block;
+  line-height: 5mm;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-weight: bolder;
+  color: black;
+}
+.second_section {
+  text-transform: uppercase;
+  position: relative;
+  height: 43mm;
+  text-wrap: wrap;
+  padding-top: 3%;
+  overflow: hidden;
+  bottom: 4mm;
+}
+
+#child-image {
+  width: 17.5mm;
+  height: 17.3mm;
+  margin-left: 0mm;
+  border-radius: 9.4mm;
+  position: relative;
+  top: 19mm;
+  float: right;
+  right: 6mm;
+}
+.details {
+  float: left;
+}
+.child-name {
+  color: red;
+  font-size: 3.5mm;
+  /* margin-left: 10mm; */
+  position: relative;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  top: 7mm;
+  font-weight: bold;
+  text-align: center;
+}
+
+.child-class {
+  font-size: 2.2mm;
+  margin-bottom: 0.9mm;
+  position: relative;
+  text-align: center;
+  top: 8mm;
+  font-weight: bold;
+}
+
+.child-details {
+  font-size: 2.5mm;
+  text-align: left;
+  padding-left: 2mm;
+  padding-right: 30mm;
+  position: relative;
+  top: 8mm;
+  text-wrap: wrap;
+  line-height: 3.4mm;
+}
+#mother_name {
+  display: none;
+}
+.red_details {
+  color: #dd1379;
+  font-weight: bold;
+  text-wrap: wrap;
+}
+#stud_address {
+  text-align: center;
+}
+#little_space {
+  margin-right: 1mm;
+}
+
+#space-left {
+  margin-left: 1mm;
+}
+.third_section {
+  position: relative;
+  font-size: 2.5mm;
+  text-align: center;
+  padding-top: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  height: 2mm;
+  left: -2%;
+  bottom: 11.5mm;
+}
+#principal_sign {
+  position: relative;
+  top: -12.7mm;
+  right: -4.5mm;
+}
+#principal_sign span {
+  font-size: 2.2mm;
+  position: relative;
+  left: 32%;
+  top: 1mm;
+  color: rgb(12, 129, 202);
+  font-weight: bolder;
+}
+
+#principal_sign img {
+  height: 4mm;
+  width: 12mm;
+  position: relative;
+  left: 49.5%;
+  top: -1mm;
+}

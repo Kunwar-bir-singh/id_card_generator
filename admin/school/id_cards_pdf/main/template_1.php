@@ -49,9 +49,13 @@
     if($i % $cols == 0 && $i != 0) $table .= "</tr><tr>";
     $table .= 
       "<td>
+      <div id='id_card_cutting_size'>
+          <div id='safe_area'>
         <div class='first_section'>
-            <img src='".$logo."' alt='' srcset='' id='institute_logo'>
+        <div id='punch_hole'></div>
+            <img src='{$logo}' alt='' srcset='' id='institute_logo'>
             <span id='institute_name'>".$row_sc['firstname']."</span>
+            
         </div>
         <div class='second_section'>
         <img id='child-image' src='{$student_image}' ><br>
@@ -63,7 +67,7 @@
             <span class='red_details'>M.Name</span>: {$student_data['mother_name']}<br>
             </span>
             <span class='red_details'>Mob. No</span>: {$student_data['contact_no']}<br>
-            <span class='red_details'>Adm. No</span> : {$student_data['admission_no']}<br>
+            <span class='red_details'>Adm. No</span> : {$student_data['admission_no']}
             <span class='red_details space-left'>D.O.B</span> : {$student_data['date_of_birth']}<br>
             <span class='red_details'>Address</span>: {$student_data['address']} 
           </div>
@@ -75,6 +79,8 @@
         <div class='third_section'>
             <span>".$row_sc['address']."</span>
             <br><span id='contact_no'>Contact No. ".$row_sc['contact']."</span>
+        </div>
+        </div>
         </div>
       </td>";
       
@@ -102,6 +108,6 @@
   // Render the HTML as PDF
   $dompdf->render();
   // Output the generated PDF to Browser
-  // $dompdf->stream("", array("Attachment" => false));
-  $dompdf->stream();
+  $dompdf->stream("", array("Attachment" => false));
+  // $dompdf->stream();
 ?>
