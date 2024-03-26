@@ -8,7 +8,7 @@ body {
 table,
 th,
 td {
-  border: 0.7mm solid black;
+  /* border: 0.7mm solid black; */
 }
 
 table {
@@ -87,8 +87,8 @@ td {
 }
 
 #child-image{
-  width: 13.5mm;
-  height: 13.5mm;
+  width: 17.5mm;
+  height: 17.5mm;
   margin-left: 16mm;
   margin-bottom: 1.8mm;
   border-radius: 3.4mm;
@@ -120,8 +120,8 @@ td {
 .child-details {
   font-size: 2.3mm;
   text-align: left;
-  padding-left: 4mm;
-  padding-right: 4mm;
+  padding-left: 2mm;
+  padding-right: 2mm;
   position: relative;
   top: -3mm;
   text-wrap: wrap;
